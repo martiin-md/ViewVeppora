@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart'; // Importa firebase_core
 import 'package:google_fonts/google_fonts.dart';
-import 'screens/VentanaRegistroLogin.dart'; // Importa tu pantalla de autenticación
-import 'screens/VentanaPrincipalHome.dart';  // Importa tu pantalla principal
+import 'screens/Logins/VentanaRegistroLogin.dart'; // Importa tu pantalla de autenticación
+import 'screens/home/VentanaPrincipalHome.dart';  // Importa tu pantalla principal
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

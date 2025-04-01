@@ -42,6 +42,7 @@ dependencies:
   google_fonts: ^4.0.3 # (o la última versión disponible)
   font_awesome_flutter: ^10.0.0 # (o la versión que necesites)
 
+  animations: ^2.0.4
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
