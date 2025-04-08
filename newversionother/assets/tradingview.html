@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TradingView</title>
+    <style>
+        body, html {
+          margin: 0;
+          padding: 0;
+          background-color: transparent;
+          height: 100%;
+          overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<iframe id="chart"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        allowtransparency="true"
+        scrolling="no"
+        src="">
+</iframe>
+<script>
+    function setSymbol(symbol) {
+      document.getElementById("chart").src =
+        "https://www.tradingview.com/embed-widget/mini-symbol-overview/?" +
+        "symbol=NASDAQ%3A" + symbol +
+        "&width=100%25&height=220&locale=es&dateRange=1D&colorTheme=dark" +
+        "&trendLineColor=%23fbc02d&underLineColor=%23fbc02d&isTransparent=true&autosize=true";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "750857502624",
+    "project_id": "view-veppora",
+    "storage_bucket": "view-veppora.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750857502624:android:ad7b9685f155f6f0336ec5",
+        "android_client_info": {
+          "package_name": "com.example.newversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750857502624-mlvr01uuo7bvjc1lqg4g2r5i4tphvnr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newversion",
+            "certificate_hash": "f2172a295e0f348046e652b213013507d2581d4e"
+          }
+        },
+        {
+          "client_id": "750857502624-1mp6tv6j6jlhva6pauq970m7imnona1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_VHnWjXfygsRsmzSUBfOqyQb02QvwFpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750857502624-1mp6tv6j6jlhva6pauq970m7imnona1g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "750857502624-0m92ap0j0qvjbig2neiffpul142pvmid.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.viewveppora"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
